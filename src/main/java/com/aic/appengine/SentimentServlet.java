@@ -27,9 +27,7 @@ public class SentimentServlet extends HttpServlet {
 		String start = req.getParameter("start");
 		String end = req.getParameter("end");
 
-		System.out.println(searchText + " " + start + " " + end);
 
-		System.out.println(context.getResource("/WEB-INF/classifier.txt").getPath());
 		SentAnalysis analysis = new SentAnalysis(searchText, start, end, 1, 1, context.getResource("/WEB-INF/classifier.txt").getPath());
 		analysis.run();
 		System.out.println("result: " + analysis.getResult());

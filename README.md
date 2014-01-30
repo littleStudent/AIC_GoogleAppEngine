@@ -1,4 +1,5 @@
-start the following AWS instance:
+###deploying
+start the following AWS instance in region ```Ireland```:
 ```
 aic13-team3-group2_Twitter_Small
 ```
@@ -32,3 +33,8 @@ For deployment, download the appengine-java-sdk.
 Also the deployed version is available at:
 
     http://twitter-sentiment-aic.appspot.com/
+
+###usage
+
+usage is pretty simple. Type in the search text and add a date range.
+Since our tweets are in a very short range (<1day) please insert a range from 2010 to 2014

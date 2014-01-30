@@ -28,3 +28,7 @@ To start the app just run the command.
 For deployment, download the appengine-java-sdk. 
 
     ./appengine-java-sdk-1.8.8/bin/appcfg.sh update <web-app-directory>
+
+Also the deployed version is available at:
+
+    http://twitter-sentiment-aic.appspot.com/

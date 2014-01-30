@@ -19,7 +19,7 @@ import java.util.List;
 
 public class SentAnalysis {
 
-	public static final String TWEETS_SERVER_URL = "54.204.29.207:3001";
+	public static final String TWEETS_SERVER_URL = "54.247.105.211:3001";
 	SentimentClassifier sentClassifier;
 	private double sentResult;
 
